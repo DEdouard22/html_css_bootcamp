@@ -1,0 +1,108 @@
+.left-pane {
+    padding: 30px 0px 15px 15px;
+    float: left;
+    clear: both;
+    position: fixed;
+    background-color: #555555;
+    color: #E1E1E1;
+    top: 3px;
+    bottom: 3px;
+    left: 3px;
+    width: 175px;
+    overflow: auto;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-pane-top a {
+    text-decoration: none;
+    color: #afafaf;
+    margin: 15px 0px;
+    display: block;
+}
+
+.active > a:hover {
+    color: #FFFFFF;
+}
+input[type=text] {
+    background-color: #555555;
+    border: 1px solid #afafaf;
+    padding: 2px;
+}
+
+.left-pane-bottom {
+    position: fixed;
+    bottom: 0;
+    font-size: 10px;
+    display: block;
+    margin-left: 15px;
+    color: #AAAAAA;
+}
+
+main {
+    margin-left: 200px;
+    padding-left: 50px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: block;
+    margin-left: 200px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-welcome-logo {
+    padding: 20px 0px 10px 50px;
+}
+
+.top-welcome-logo > p {
+    color: #888888;
+    font-size: 12px;
+}
+
+.top-welcome-logo > span {
+    font-size: 34px;
+    color: #555555;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #F4F4F4;
+}
+
+.intro {
+    font-size: 14px;
+    color: #555555;
+}
+
+.quote {
+    font-size: 14px;
+    background-color: #E6E3DE;
+    padding: 5px 20px;
+    line-height: 1.5em;
+    color: #AAAAAA;
+    border-left-style: solid;
+    
+}
+
+.quote b {
+    font-size:35px;
+    font-family: cursive;
+    color:  #838381;
+}
+
+.quote b:last-child {
+    padding-left: 50px;
+}
+
+.quote > span {
+    display: block;
+    text-align: right;
+} 
+
+.bottom-of-doc {
+    font-size: 14px;
+    color: #555555;
+}
